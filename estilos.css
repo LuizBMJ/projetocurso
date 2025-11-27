@@ -55,7 +55,7 @@ nav {
 
 main {
     display: block;
-    margin: auto;
+    margin: 0;
     padding: 20px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -233,3 +233,4 @@ footer > p {
     }
  
 }
+
