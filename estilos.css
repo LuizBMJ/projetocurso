@@ -89,12 +89,14 @@ footer > p {
     font-size: 5em;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     margin: 15px;
+    font-weight: normal;
 }
 
 #principal-topico {
     font-size: 2.5em;
     font-family: var(--fonte-android);
     color: var(--cor2);
+    font-weight: normal;
 }
 
 #curiosidade {
@@ -156,11 +158,13 @@ footer > p {
 .topico {
     font-size: 2em;
     font-family: var(--fonte-android);
+    font-weight: normal;
     margin: auto auto auto 5px;
     padding-left: 10px;
     border-radius: 4px;
     color: var(--cor2);
     background: linear-gradient(90deg, #22ca2d48, #ffffff 100%); 
+    
 }
 
 .texto {
@@ -215,6 +219,12 @@ footer > p {
 .link {
     color: var(--cor3);
     font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--cor0);
+    text-decoration: underline;
 }
 
 .link_footer {
@@ -238,6 +248,7 @@ footer > p {
         word-spacing: 0 !important;
         line-height: 1.2;
         font-kerning: none;
+        overflow-wrap: break-word;
 
     }
 
@@ -252,6 +263,7 @@ footer > p {
         word-spacing: 0 !important;
         line-height: 1.2;
         font-kerning: none;
+        overflow-wrap: break-word;
     }
 
     .menu {
