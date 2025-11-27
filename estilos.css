@@ -225,20 +225,23 @@ footer > p {
 
     #principal-topico {
         font-size: 1.8em;
-        letter-spacing: 0;
-        word-spacing: 0;
+        letter-spacing: 0 !important;
+        word-spacing: 0 !important;
         line-height: 1.2;
+        font-kerning: none;
+
     }
 
     #lista {
-        column-count: 1 !important;
+        column-count: 1;
     }
 
     .topico {
         font-size: 1.5em;
-        letter-spacing: 0;
-        word-spacing: 0;
+        letter-spacing: 0 !important;
+        word-spacing: 0 !important;
         line-height: 1.2;
+        font-kerning: none;
     }
 
     .menu {
