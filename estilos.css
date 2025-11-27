@@ -49,13 +49,14 @@ nav {
     padding-bottom: 10px;
     align-items: center;
     justify-content: flex-start;
-    flex-wrap: nowrap;
     font-weight: bold;
 }
 
 main {
     display: block;
-    margin: 0;
+    margin: auto;
+    max-height: 100%;
+    max-width: 1000px;
     padding: 20px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -214,6 +215,14 @@ footer > p {
 }
 
 @media (max-width: 650px) {
+
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-left: 5px;
+        justify-content: center;
+    }
+
     #principal-topico {
         font-size: 1.8em;
         letter-spacing: 0;
@@ -230,6 +239,10 @@ footer > p {
         letter-spacing: 0;
         word-spacing: 0;
         line-height: 1.2;
+    }
+
+    .menu {
+        padding: 0.4rem 0.7rem;
     }
  
 }
